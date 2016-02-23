@@ -1,0 +1,2 @@
+#!/bin/sh
+exec bin/rackup -p ${PORT:-8080} -o ${HOSTNAME}
